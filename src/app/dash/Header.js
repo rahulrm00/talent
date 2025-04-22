@@ -10,8 +10,8 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from "@/app/components/ui/dropdown-menu"
-import { SidebarTrigger } from "@/app/components/ui/sidebar"
+} from "@/components/ui/dropdown-menu"
+import { SidebarTrigger } from "@/components/ui/sidebar"
 
 
 export default function Header({ user, darkMode, notifications, onToggleDarkMode, onLogout }) {
